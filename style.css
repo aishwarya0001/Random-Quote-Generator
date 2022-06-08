@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+* 
+{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+#container
+{
+    background-color: #04DEAD;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote-container
+{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width : 650px;
+    height: 410px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+#inverted-comma
+{
+    /* font-family: 'Lily Script One', cursive; */
+    font-size: 120px;
+    /* border: 1px solid black; */
+    height: 80px;
+    text-align: left;
+    padding-left: 20px;
+}
+#quote
+{
+    display: table-cell;
+    height: 220px;
+    padding: 20px;
+    font-size: 22px;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    width : 650px;
+}
+#author
+{
+    padding: 5px;
+    /* border: 1px solid black; */
+    height:30px;
+    padding: auto;
+}
+#get-quote
+{
+    font-size: medium;
+    padding: 7px 10px 7px 10px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
